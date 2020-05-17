@@ -220,9 +220,9 @@ else:
             print('La persona con el año más temprano es: '+str(primer_nacimiento)[0:4])
             print('La persona con el año de nacimiento más reciente: '+str(ultimo_nacimiento)[0:4])
             print('El año de nacimiento más común es: '+str(moda_nacimientos)[0:4])
-            print("Muchas Gracias por visitarnos, lo esperamos pronto!")
+            print("Muchas Gracias por visitarnos, lo esperamos pronto!, Buen Día!")
         else:
-            print("Muchas Gracias por visitarnos, lo esperamos pronto!")
+            print("Muchas Gracias por visitarnos, lo esperamos pronto!, Buen Día!")
             
 
 #Display contents of the CSV file to the display as requested by the user.
@@ -243,4 +243,4 @@ def muestra_data(df):
                     break
                                       
 muestra_data(df)
-print("Muchas Gracias por visitarnos, lo esperamos pronto!")
+print("Muchas Gracias por visitarnos, lo esperamos pronto!, Buen Día!")
