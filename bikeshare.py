@@ -170,8 +170,8 @@ else:
 # PARA HACER: muestra los recuentos de género
 
     else:
-      Estadistica_generos = input('¿Qusiera visualizar los datos de las estadisticas de los usuarios?: ')
-      if Estadistica_generos == 'si' or Estadistica_generos == 'Si' or Estadistica_generos == 'SI':
+      Estadistica_genero = input('¿Qusiera visualizar los datos de las estadisticas de los usuarios?: ')
+      if Estadistica_genero == 'si' or Estadistica_genero == 'Si' or Estadistica_genero == 'SI':
         month = Input_Fecha.lower()
         Datos_Ciudades = { 'chicago': 'chicago.csv','new york': 'new_york_city.csv','washington': 'washington.csv' }
         df = pd.read_csv(Datos_Ciudades[ciudad])
@@ -228,7 +228,7 @@ else:
 #Display contents of the CSV file to the display as requested by the user.
 # Visualice el contenido del archivo CSV en la pantalla según lo solicite el usuario.
             
-def muestra_data(df):
+def muestra_data_cruda(df):
               inicio_loc = 0
               fin_loc = 5
               data_cruda = input("¿Quiere ver la data cruda?: ").lower()
@@ -242,5 +242,6 @@ def muestra_data(df):
                  
                     break
                                       
-muestra_data(df)
+
+muestra_data_cruda(df)
 print("Muchas Gracias por visitarnos, lo esperamos pronto!, Buen Día!")
