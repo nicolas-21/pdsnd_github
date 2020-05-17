@@ -1,15 +1,18 @@
 ### Date created
-Include the date you created this project and README file.
+Fecha de Creación project: 17-05-2020
+Fecha de Creación README file: 17-05-2020
 
 ### Project Title
-Replace the Project Title
+US Bikeshare Data
 
 ### Description
-Describe what your project is about and what it does
+Comparación del uso del sistema de bicicletas compartidas entre tres grandes ciudades de EE.UU: Chicago, Nueva York y Washington DC.
+La investigación se baso en: 1.Fecha más popular de viaje, Estaciones más populares de viaje, Duración del viaje e información de los usuarios.
 
 ### Files used
-Include the files used
+chicago.csv
+new_york_city.csv
+washington.csv
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
-
+Para este proyecto, se utilizaron los datos suministrados de Motivate (URL:https://www.motivateco.com/), un proveedor de sistemas de bicicletas compartidas para bastantes ciudades importantes de los Estados Unidos, para descubrir patrones de uso de bicicletas compartidas.
