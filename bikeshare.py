@@ -228,7 +228,7 @@ else:
 #Display contents of the CSV file to the display as requested by the user.
 # Visualice el contenido del archivo CSV en la pantalla según lo solicite el usuario.
             
-def muestra_data(df):
+def muestra_data_cruda(df):
               inicio_loc = 0
               fin_loc = 5
               data_cruda = input("¿Quiere ver la data cruda?: ").lower()
@@ -242,5 +242,5 @@ def muestra_data(df):
                  
                     break
                                       
-muestra_data(df)
+muestra_data_cruda(df)
 print("Muchas Gracias por visitarnos, lo esperamos pronto!")
